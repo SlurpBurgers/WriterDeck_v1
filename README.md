@@ -2,6 +2,21 @@
 I will be adding more information to this file, including some print and assembly instructions, as well as some software files for cool writerdeck functionality.
 ![alt text](https://github.com/SlurpBurgers/WriterDeck_v1/blob/main/img/expl_darkBg.png "exploded view of the printed parts")
 
+# Bill of Materials
+| Item | Qty |
+| --- | --- |
+| Raspberry Pi | 1 |
+| Waveshare UPS Module 3s | 1 |
+| 18650 Liion Cell | 3 |
+| Mechanical Swtich | 48 |
+| Keycap Set | 1 |
+| RP2040  | 1 |
+| ADS1115 | 1 |
+| PS2 Joystick Module | 1 |
+| 2 Wire Pogo Pin Connector | M/F set |
+| Right-angle USB extender | 1 |
+
+
 # Writerdeck Setup and Config
 [writerdeckConfig.md](https://github.com/SlurpBurgers/WriterDeck_v1/blob/main/configHacks/writerdeckConfig.md)
 This is my current setup for distraction free workflows.
