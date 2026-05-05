@@ -9,16 +9,20 @@ For my Writerdeck setup, I boot to the command line (no desktop environment), an
 
 ### bash aliases
 add these aliases to the bottom of the .bashrc file:
-`alias obsidian='setterm -cursor off; sudo dmesg -D; labwc -s "flatpak run md.obsidian.Obsidian" &>/dev/null; sudo dmesg -E; setterm -cursor on; reset; clear'`
-`alias ala='setterm -cursor off; sudo dmesg -D; labwc -s alacritty &>/dev/null; sudo dmesg -E; setterm -cursor on; reset; clear'`
+```
+alias obsidian='setterm -cursor off; sudo dmesg -D; labwc -s "flatpak run md.obsidian.Obsidian" &>/dev/null; sudo dmesg -E; setterm -cursor on; reset; clear'
+alias ala='setterm -cursor off; sudo dmesg -D; labwc -s alacritty &>/dev/null; sudo dmesg -E; setterm -cursor on; reset; clear'
+```
 
 ### Alacritty
 No special setup is needed
 
 ### Obsidian
 Install the md.obsidian.Obsidian flatpak, then run these commands to set the flatpak to launch in a native Wayland wrapper instead of an XWayland wrapper:
-`flatpak override --user --socket=wayland md.obsidian.Obsidian`
-`flatpak override --user --env=ELECTRON_OZONE_PLATFORM_HINT=wayland md.obsidian.Obsidian`
+```
+flatpak override --user --socket=wayland md.obsidian.Obsidian
+flatpak override --user --env=ELECTRON_OZONE_PLATFORM_HINT=wayland md.obsidian.Obsidian
+```
 
 ### labwc
 Add these window rules (and keyboard shortcut if you want a session killswitch) to ~/.config/labwc/rc.xml
