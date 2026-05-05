@@ -11,3 +11,13 @@ I use labwc as a standalone window manager to run a single app at once, the conf
 * alacritty (to run the TUI word processors)
 
 Obsidian is pretty self-explanatory, and I use it when I need to switch between multiple documents quickly, or to organize larger scale projects. Alacritty is used to launch your choice of TUI word processor apps for distraction-free writing. Wordgrinder, Pure, Micro, VIM, etc are all great choices and I am still cycling between them to get a feel for what will work in a longer-term workflow.
+
+### Example Screenshots
+#### Obsidian
+![alt text](https://github.com/SlurpBurgers/WriterDeck_v1/blob/main/configHacks/screenshots/wordgrinder.png "wordgrinder running in labwc with a waybar instance for battery info")
+
+#### Obsidian
+![alt text](https://github.com/SlurpBurgers/WriterDeck_v1/blob/main/configHacks/screenshots/obsidian.png "obsidian running in labwc with a waybar instance for battery info")
+
+#### Obsidian
+![alt text](https://github.com/SlurpBurgers/WriterDeck_v1/blob/main/configHacks/screenshots/pure.png "pure running in labwc with a waybar instance for battery info")
