@@ -1,0 +1,31 @@
+{
+    "layer": "overlay",
+    "position": "top",
+    "height": 26,
+    "modules-center": ["clock"],
+    "modules-left": ["cpu", "temperature"],
+    "modules-right": ["custom/battery"],
+    "exclusive": false,
+    "passthrough": true,
+
+    "custom/battery": {
+        "exec": "python3 /home/writer/.ups/bat_status.py",
+        "interval": 5,
+        "format": "{}",
+        "tooltip": false
+    },
+    "clock": {
+        "interval": 60,
+        "format": " 🕗 {:%H:%M}"
+    },
+    "cpu": {
+        "interval": 1,
+        "format": "▩ CPU: {usage}%",
+        "max-length": 10
+    },
+    "temperature": {
+        "critical-threshold": 80,
+        "format": " | 🌡 Temp: {temperatureC}°C",
+        "format-critical": " | 🌡 Temp: {temperatureC}°C"
+    }
+}

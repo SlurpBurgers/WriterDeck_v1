@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<openbox_config xmlns="http://openbox.org/3.4/rc">
+	<windowRules>
+		<windowRule identifier="alacritty">
+			<maximized>yes</maximized>
+			<border>false</border>
+		</windowRule>
+		<windowRule identifier="Obsidian">
+			<maximized>yes</maximized>
+			<border>false</border>
+			<ignoreGeometry>yes</ignoreGeometry>
+		</windowRule>
+		<windowRule type="normal">
+			<maximized>yes</maximized>
+			<fullscreen>yes</fullscreen>
+			<decorations>no</decorations>
+			<ignore_configure_request>yes</ignore_configure_request>
+			<skipPager>yes</skipPager>
+			<skipTaskbar>yes</skipTaskbar>
+		</windowRule>
+	</windowRules>
+
+	<keyboard>
+		<keybind key="W-q">
+			<action name="Exit" />
+		</keybind>
+	</keyboard>
+</openbox_config>

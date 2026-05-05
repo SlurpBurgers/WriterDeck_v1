@@ -1,0 +1,22 @@
+window#waybar {
+    background-color: rgba(15, 15, 15, 1);
+    font-size:1.25em
+}
+
+#custom-battery {
+    padding: 0 0px;
+    background: transparent;
+        color: #777777;
+}
+
+#cpu {
+        color: #777777;
+}
+
+#temperature {
+        color: #777777;
+}
+
+#clock {
+        color:#777777;
+}
