@@ -10,8 +10,8 @@ I will be adding more information to this file, including some print and assembl
 | 18650 Liion Cell | 3 |
 | Mechanical Swtich <sup>2</sup> | 48 |
 | Keycap Set | 1 |
-| RP2040 <sup>3</sup>  | 1 |
-| ADS1115 <sup>4</sup> | 1 |
+| RP2040 Keyboard Controller <sup>3</sup>  | 1 |
+| ADS1115 Joystick Controller <sup>4</sup> | 1 |
 | PS2 Joystick Module | 1 |
 | 2 Wire Pogo Pin Connector | M/F set |
 | Right-angle USB extender | 1 |
