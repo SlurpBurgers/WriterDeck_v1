@@ -5,17 +5,21 @@ I will be adding more information to this file, including some print and assembl
 # Bill of Materials
 | Item | Qty |
 | --- | --- |
-| Raspberry Pi | 1 |
+| Raspberry Pi <sup>1</sup> | 1 |
 | Waveshare UPS Module 3s | 1 |
 | 18650 Liion Cell | 3 |
-| Mechanical Swtich | 48 |
+| Mechanical Swtich <sup>2</sup> | 48 |
 | Keycap Set | 1 |
-| RP2040  | 1 |
-| ADS1115 | 1 |
+| RP2040 <sup>3</sup>  | 1 |
+| ADS1115 <sup>4</sup> | 1 |
 | PS2 Joystick Module | 1 |
 | 2 Wire Pogo Pin Connector | M/F set |
 | Right-angle USB extender | 1 |
 
+<sup>1</sup> Any Pi model (3b+, 4, 5, etc) should work with the UPS since power and battery info is delivered over GPIO pins
+<sup>2</sup> I used Akko Penguin switches on my build, but any Cherry-format mechanical switch should work just fine, and it might even be possible to use low-profile switches (although the keyboard cover may need to have its thickness adjusted).
+<sup>3</sup> I used a YD-RP2040, a Pi Zero clone(?) that has USB C. That's the only reason I use this variation of the 2040. You should be able to use any 2040 chip that you would like and it will work with the KMK firmware (assuming enough GPIO inputs for the keyboard layout).
+<sup>4</sup> ADS1115 Analog to Digital converter, for the joystick. Connected to the RP2040 via I2C.
 
 # Writerdeck Setup and Config
 [writerdeckConfig.md](https://github.com/SlurpBurgers/WriterDeck_v1/blob/main/configHacks/writerdeckConfig.md)
