@@ -19,9 +19,10 @@ No special setup is needed
 
 ### Obsidian
 Install the md.obsidian.Obsidian flatpak, then run these commands to set the flatpak to launch in a native Wayland wrapper instead of an XWayland wrapper:
-
-`flatpak override --user --socket=wayland md.obsidian.Obsidian`
-`flatpak override --user --env=ELECTRON_OZONE_PLATFORM_HINT=wayland md.obsidian.Obsidian`
+```
+flatpak override --user --socket=wayland md.obsidian.Obsidian
+flatpak override --user --env=ELECTRON_OZONE_PLATFORM_HINT=wayland md.obsidian.Obsidian
+```
 
 ### labwc
 Add these window rules (and keyboard shortcut if you want a session killswitch) to ~/.config/labwc/rc.xml
